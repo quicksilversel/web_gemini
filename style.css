@@ -13,6 +13,80 @@ html {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    background-color: black;
+    background-size:cover;
 }
+
+.navbar {
+    background-color: transparent;
+}
+
+#banner {
+    color: white;
+    font-family: "Yantramanav";
+     text-decoration: none;
+     font-size: 65px;
+     padding-top:5%;
+
+}
+
+.nav-link {
+    margin:1%;
+    color: white;
+    font-size: 25px;
+    font-family:'Yantramanav';
+    text-transform: uppercase;
+}
+
+.display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    height:100%;
+    padding-top:10%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.display img {
+    flex: 0 0 auto;
+    width: 100%;
+    min-width:35rem;
+    max-width:60vmin;
+    transition: transform 0.3s ease-in-out;
+}
+
+.display img:hover {
+    transform: scale(1.05);
+}
+
+#pics {
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+#caption {
+    position: relative;
+}
+
+#caption .text {
+    position: absolute;		
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Yantramanav", sans-serif;
+    text-transform: uppercase;
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.8s ease;			
+}
+#caption .text h1 {		
+    margin: 0;		
+    color: white;
+}
+#caption:hover .text {
+	opacity: 1;
+	
+}
+
 
