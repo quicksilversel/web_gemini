@@ -13,8 +13,9 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #e7e7e7;
     background-size:cover;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -22,17 +23,16 @@ body {
 }
 
 #banner {
-    color: white;
-    font-family: "Yantramanav";
-     text-decoration: none;
-     font-size: 65px;
-     padding-top:5%;
-
+    color: black;
+    font-family: "Raleway";
+    text-decoration: none;
+    font-size: 65px;
+    padding-top:5%;
 }
 
 .nav-link {
     margin:1%;
-    color: white;
+    color: black;
     font-size: 25px;
     font-family:'Yantramanav';
     text-transform: uppercase;
@@ -51,8 +51,8 @@ body {
 .display img {
     flex: 0 0 auto;
     width: 100%;
-    min-width:35rem;
-    max-width:60vmin;
+    min-width:20rem;
+    max-width:30vmin;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -62,7 +62,7 @@ body {
 
 #pics {
     padding-left: 5%;
-    padding-right:5%;
+    padding-right: 5%;
 }
 
 #caption {
@@ -87,6 +87,12 @@ body {
 #caption:hover .text {
 	opacity: 1;
 	
+}
+
+.footer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Raleway", sans-serif;
 }
 
 
